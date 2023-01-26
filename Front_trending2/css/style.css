@@ -1,0 +1,497 @@
+.navbar{
+    padding: 0 10vh;
+}
+.input-group{
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding-left: 20px;
+    direction: rtl;
+}
+.input-group  i{
+    color: #808080 ;
+    padding-top: 5px;
+}
+.input-group input{
+    border: none !important;
+    padding: 0 10px;
+
+}
+#navbarNav{
+    justify-content: center;
+}
+.navbar-nav{
+    direction: rtl ;
+}
+.sec-one {
+    width: 1344px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent url('../img/ad_banner_c.png') 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+
+    /* background-image: url('../img/ad_banner_c.png');
+    background-size: cover; */
+}
+.nav{
+    padding-right: 1rem !important;
+    padding-left: 1rem ;
+    padding: 0.625rem 0;
+    background-color : #E6EDF7;
+    border-radius: 0.625rem;
+    justify-content: center !important;
+    margin-bottom: 1.6rem !important;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin:112px 50px;
+    margin-bottom: 2rem !important;      
+    /* box-sizing: border-box; */
+    padding: 1.625rem 0;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 3rem !important;
+}
+
+/* start sec two */
+.sec-two{
+    padding: 30px 0;
+    text-align: center;
+    direction: rtl;
+}
+.sec-two img{
+    width: 100px;
+}
+.sec-two .single-card{
+    border: 1px solid #808080;
+    border-radius: 20px;
+    height: 280px;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* direction: rtl; */
+
+}
+.sec-two .single-card #star{
+    top: 15px;
+    right: 15px;
+    position: absolute;
+}
+.sec-two .single-card  span{
+    position: absolute;
+    top: 17px;
+    right: 36px;
+    font-size: 11px;
+}
+ 
+.sec-two .card-group{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.sec-two .card-group .card-img-top{
+    margin-top: 20px;
+}
+.sec-two .card-body h5{
+    color: #808080;
+    margin-top: 7px;
+}
+.sec-two .card-body .d-flex{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.sec-two .card-body .d-flex p
+{
+    position: relative;
+    /* direction: ltr; */
+    font-weight: bold;
+}
+.sec-two .card-body .d-flex sub{
+    position: absolute;
+    top: 25px;
+    right: 2px;
+    text-decoration: line-through;
+    }
+.sec-two .card-body .d-flex sup{
+    font-weight: bold;
+    /* text-align: right; */
+}
+.sec-two .card-body .d-flex i{
+    color: #331aa3;
+    font-weight: bold;
+}
+.sec-two .card-body .d-flex #cart,
+.sec-two .card-body .d-flex p{
+    margin-right: 50px;
+    
+}
+.sec-two #flex{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-two  .sec-two-btn{
+    text-align: center;
+    margin: 40px 0;
+}
+.sec-two  .sec-two-btn button{
+    background-color: #ECEEEF;
+    position: relative;
+    padding: 1vh 13vh;
+    border-radius: 15px;
+    border: none;
+    /* color: #fff; */
+}
+.sec-two .container .sec-four-btn button i{
+    position: absolute;
+    right: 90%;
+    top: 30%;
+
+}
+/* .sec-two-img{
+    
+} */
+/* sec-three */
+.sec-three .card{
+    background-color: lightblue;
+    padding-top: 50px;
+}
+.sec-three #left-card{
+    margin-right: 20px;
+    background-color: #ced4da;
+}
+/* .sec-three #left-card img{ */
+    /* width: 330px; */
+/* } */
+.sec-three .card-title {
+    text-align: center ;
+    color: blue;
+    font-weight: bold;
+}
+.sec-three .card-text{
+    text-align: center;
+}
+.sec-three .container .d-flex .card .container  #inner-card{
+    /* display: flex;
+    justify-content: space-around; */
+    margin-top: 40px;
+    text-align: center;
+}
+.sec-three .container .d-flex .card .container  #inner-card #card img{
+    width: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.sec-three .container .d-flex .card .container  #inner-card #card .card-body .card-title{
+    font-size: 15px;
+}
+.sec-three #card{
+    border: 1px solid #808080;
+    border-radius: 15px;
+    /* width: 40px; */
+    background-color: #fff;
+    margin-right: 15px;
+    max-width: 165px;
+}
+.sec-three .container .d-flex .card .sec-three-btn{
+    text-align: center;
+    margin-top: 70px;
+}
+.sec-three .container .d-flex .card .sec-three-btn button{
+    background-color: blue;
+    position: relative;
+    padding: 1vh 13vh;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+}
+.sec-three .container .d-flex .card .sec-three-btn button i{
+    position: absolute;
+    right: 90%;
+    top: 30%;
+
+}
+.sec-three #left-card .d-flex img{
+    width: 150px;
+}
+/* end sec three */
+
+/* start sec four */
+.sec-four{
+    margin-top: 30px;
+}
+.sec-four .container h5{
+    text-align: center;
+}
+.sec-four .container #events-card{
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec-four .container #events-card #card-item{
+    
+    box-shadow: 0px 0px 40px rgb(29 58 83 / 15%) !important;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 50px 20px;
+    /* padding-bottom: 20px; */
+}
+.sec-four .container #events-card #card-item .img-top{
+    width: 100%;
+    /* height: 225px; */
+}
+.sec-four .container #events-card .card-body p{
+    font-size: 13px;
+}
+.sec-four .container .sec-four-btn{
+    text-align: center;
+    margin: 40px 0;
+}
+.sec-four .container  .sec-four-btn button{
+    background-color: #ECEEEF;
+    position: relative;
+    padding: 1vh 13vh;
+    border-radius: 15px;
+    border: none;
+    /* color: #fff; */
+}
+.sec-four .container .sec-four-btn button i{
+    position: absolute;
+    right: 90%;
+    top: 30%;
+
+}
+/* end sec four */
+
+/* footer */
+footer{
+    background-color: #ECEEEF   ;
+    direction: rtl;
+}
+footer .footer-1 ,
+footer .footer{
+    margin-top: 80px;
+    /* margin-bottom: 20px; */
+}
+footer .footer li{
+    font-size: 11px;
+}
+footer .container .footer p{
+    size: 18px;
+}
+footer .footer-1 p{
+    max-width: 75vh;
+    /* font-size: 16px; */
+}
+footer .footer-1 h6{
+    font-size: 16px;
+}
+footer .footer-social #icons i{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 7px;
+}
+footer .footer-social{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-social img{
+    width: 60px;
+    height: 30px;
+}
+/* footer .footer-social #footer-img-1{
+    margin-right: 20px;
+} */
+/* end footer */
+
+/* starttttttt cameres page */
+
+/* start sec one */
+.sec-one-camera{
+    direction: rtl;
+    background-color: #ddd;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.sec-one-camera .p-right{
+    margin-left: 80vh;
+    padding: 50px;
+}
+.sec-one-camera .p-right h2{
+    padding-right: 20px;
+    border-right: 5px solid #331aa3;
+    color: #331aa3;
+}
+.sec-one-camera ul li{
+    display: inline;
+}
+.sec-one-camera ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sec-one-camera ul{
+    list-style: none;
+}
+.sec-one-camera .d-flex .sec-one-cam-img img{
+    width: 140px;
+    margin-top: 50px;
+}
+/* end sec one */
+
+/* start sec two */
+.sec-two-cam {
+    direction: rtl;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.sec-two-cam .sec-two-right{
+    background-color: #E6EDF7;
+    width: 270px;
+    padding-left: 14px;
+    margin-left: 16px;
+    height: 800px;
+    border-radius: 15px;
+}
+.sec-two-cam .sec-two-right #sec-two-result{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.sec-two-cam .sec-two-right #sec-2-cameras{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 236px;
+    text-align: center;
+    padding:  16px;
+    margin: 18px 12px;
+}
+.sec-two-cam .sec-two-right #sec-2-cameras h5{
+    margin-left: 40px;
+
+}
+.sec-two-cam .sec-two-right img{
+    width: 32px;
+    margin-left: 40px;
+}
+.sec-two-cam .sec-two-right h4{
+    color: #0B2242;
+    font-size: 16px;
+    width: 94px;
+    /* margin-left: 10px; */
+}
+.sec-two-cam .sec-two-right h6{
+    color: #0B2242;
+    font-size: 14px;
+}
+.sec-two-cam .sec-two-right button{
+    background-color: #fff;
+    border: none;
+    margin-bottom: 8px;
+    /* margin-left: 20px; */
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 12px;
+    margin-right: 10px;
+}
+.sec-two-cam .sec-two-right h6{
+    margin: 24px 12px;
+    font-size: 14px;
+}
+.sec-two-cam .sec-two-right button img{
+    width: 43px;
+    /* padding-left: 10px; */
+    margin: 0 24px;
+}
+/* .sec-two-cam .sec-two-right .sec-two-price{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.sec-two-cam .sec-two-left{
+    margin-left: 20px;
+}
+.sec-two-cam .sec-two-left img{
+    width: 109px;
+}
+.sec-two-cam .single-card{
+    border: 1px solid #808080;
+    border-radius: 20px;
+    height: 290px;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    max-width: 150px;
+    /* direction: rtl; */
+
+}
+.sec-two-cam .single-card #star{
+    top: 15px;
+    right: 15px;
+    position: absolute;
+}
+.sec-two-cam .single-card  span{
+    position: absolute;
+    top: 17px;
+    right: 36px;
+    font-size: 11px;
+}
+ 
+.sec-two-cam .card-group{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.sec-two-cam .card-group .card-img-top{
+    margin-top: 20px;
+}
+.sec-two-cam .card-body h5{
+    color: #808080;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.sec-two-cam .card-body img{
+    width: 36px;
+}
+.sec-two-cam .card-body .d-flex{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.sec-two-cam .card-body .d-flex p
+{
+    position: relative;
+    /* direction: ltr; */
+    font-weight: bold;
+}
+.sec-two-cam .card-body .d-flex sub{
+    position: absolute;
+    top: 25px;
+    right: 2px;
+    text-decoration: line-through;
+    }
+.sec-two-cam .card-body .d-flex sup{
+    font-weight: bold;
+    /* text-align: right; */
+}
+.sec-two-cam .card-body .d-flex i{
+    color: #331aa3;
+    font-weight: bold;
+}
+.sec-two-cam .card-body .d-flex #cart,
+.sec-two-cam .card-body .d-flex p{
+    margin-right: 25px;
+    
+}
+.sec-two-cam #flex{
+    display: flex;
+    justify-content: space-around;
+}
+/* end sec two */
+
+/* endddddddd cameres page */
